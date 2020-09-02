@@ -11,19 +11,19 @@
 <footer class="text-center mt-20 font-noto-regular">
 
 
-<!-- <div class="text-2xl mb-5  ">
-<a href="https://himedi.com/en?terms=true" class="text-gray-600 font-bold "style="font-size:14px;">Terms of Use</a> .
-<a href="https://himedi.com/en?privacy=true" class="text-gray-600 font-bold" style="font-size:14px;">Privacy Policy</a>
-</div> -->
+<div class="text-2xl mb-5  ">
+<a href="https://himedi.com/en?terms=true" class="text-gray-600 font-bold "style="font-size:14px;"><?php _e('Terms of Use','brand-h'); ?></a> .
+<a href="https://himedi.com/en?privacy=true" class="text-gray-600 font-bold" style="font-size:14px;"><?php _e('Privacy Policy','brand-h'); ?></a>
+</div>
 
 
 <p class="text-gray-500 px-20 " style="font-size:13px">
-	10, Anson Road, #34-10, International Plaza, Singapore 079903
+<?php _e('10, Anson Road, #34-10, International Plaza, Singapore 079903','brand-h'); ?>
 </p>
 
 
 <p class="text-gray-500 mt-8 mb-16">
-&copy; HIMEDI PTE. LTD.
+&copy; <?php _e('HIMEDI SEA PTE. LTD.','brand-h'); ?>
 </p>
 
 </footer>

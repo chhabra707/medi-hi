@@ -35,14 +35,11 @@
     font-style: normal;
 
 }
-body > div.container-fluid.mb-1 > div > header{
-	z-index:2!important;
-}
 
-/* body.page-template-default.page.customize-support.no-scroll header.header-container{
+
+body.home.page-template-default.page.page-id-5.logged-in.admin-bar.customize-support.no-scroll header.header-container{
     z-index:2!important;
-} */
-
+}
 
 
 .font-roboto{
@@ -350,12 +347,12 @@ body > div.container-fluid.mb-1 > div > header{
 				
 				<div class="">
 					<div class="py-10 px-10 mt-10">
-						We give sincere answers to any question for patients’ recovery.
+						<?php _e('We give sincere answers to any question for patients’ recovery.','brand-h'); ?>
 					</div>
 					<div class="flex justify-center">
 						<a href="<?php echo esc_url( home_url( '/' ) ); ?>/inquiry" class="">
 							<button class="text-white py-4 px-20 mx-auto rounded-lg mb-20 hover:bg-blue-500" style="background-color:#2681F3">
-								Inquiry
+								<?php _e('Inquiry','brand-h'); ?>
 							</button>	
 						</a>
 					</div>
@@ -365,7 +362,7 @@ body > div.container-fluid.mb-1 > div > header{
 						</div>
 						<a href="<?php echo esc_url( home_url( '/' ) ); ?>/how-to-use" class="text-black"> 
 							<div class="text-black ml-1">
-								How to utilize Himedi with Doctors
+								<?php _e('How to utilize Himedi with Doctors','brand-h'); ?>
 							</div>
 						</a>
 					</div>
@@ -375,7 +372,7 @@ body > div.container-fluid.mb-1 > div > header{
 						</div>
 						<a href="<?php echo esc_url( home_url( '/' ) ); ?>/affiliate" class="text-black"> 
 							<div class="text-black ml-1">
-								Check partner hospitals
+								<?php _e('Check partner hospitals','brand-h'); ?>
 							</div>
 						</a>
 					</div>
@@ -385,7 +382,7 @@ body > div.container-fluid.mb-1 > div > header{
 						</div>
 						<a href="<?php echo esc_url( home_url( '/' ) ); ?>/interview" class="text-black"> 
 							<div class="text-black">
-								Interviews with successful cases
+								<?php _e('Interviews with successful cases','brand-h'); ?>
 							</div>
 						</a>
 					</div>
@@ -395,7 +392,7 @@ body > div.container-fluid.mb-1 > div > header{
 						</div>
 						<a href="<?php echo esc_url( home_url( '/' ) ); ?>/success-cases" class="text-black"> 
 							<div class="text-black ml-2">
-								Examples of 2nd diagnoses
+								<?php _e('Examples of 2nd diagnoses','brand-h'); ?>
 							</div>
 						</a>
 						
@@ -406,7 +403,7 @@ body > div.container-fluid.mb-1 > div > header{
 						</div>
 						<a href="<?php echo esc_url( home_url( '/' ) ); ?>/inquiry" class="text-black"> 
 							<div class="text-black ml-2">
-								Inquiry
+								<?php _e('Inquiry','brand-h'); ?>
 							</div>
 						</a>
 					</div>
@@ -416,9 +413,9 @@ body > div.container-fluid.mb-1 > div > header{
 							<div style="position:relative">
 								<img src="<?php echo get_template_directory_uri(); ?>/img/sidebar-1.jpg" style="position:absolute;top:0px">
 								<div style="position:absolute;top:10px">
-									<div class="mt-3 ml-5">HIMEDI STORY</div>
-									<div class="ml-5 text-sm">As a complex medical service platform</div>								
-									<div class="ml-10 mt-2 text-sm text-gray-500">More > </div>
+									<div class="mt-3 ml-5"><?php _e('HIMEDI STORY','brand-h'); ?></div>
+									<div class="ml-5 text-sm"><?php _e('As a complex medical service platform','brand-h'); ?></div>								
+									<div class="ml-10 mt-2 text-sm text-gray-500"><?php _e('More','brand-h'); ?> > </div>
 								</div>	
 							</div>
 						</div>
