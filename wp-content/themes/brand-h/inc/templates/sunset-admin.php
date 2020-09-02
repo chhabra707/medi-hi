@@ -1,7 +1,6 @@
 <h1>Brand H Sidebar Options</h1>
 <?php settings_errors(); ?>
-Updated 2020.09.01
-<!-- <?php 
+<?php 
 	
 	$picture = esc_attr( get_option( 'profile_picture' ) );
 	$firstName = esc_attr( get_option( 'first_name' ) );
@@ -39,4 +38,4 @@ Updated 2020.09.01
 	<?php settings_fields( 'sunset-settings-group' ); ?>
 	<?php do_settings_sections( 'alecaddd_sunset' ); ?>
 	<?php submit_button( 'Save Changes', 'primary', 'btnSubmit' ); ?>
-</form> -->
+</form>

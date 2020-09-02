@@ -31,16 +31,16 @@ body{
       </div>
   </div>
   <h2 class="text-center px-6 font-size-24 leading-relaxed " style="font-size: 24px; color: rgba(0,0,0,.8)!important; font-family: Noto Sans Regular, sans-serif!important; text-align: center!important; line-height: 1.5em;">
-    Himedi recommends remedies and best doctors for you.
+    <?php _e('Himedi recommends remedies and best doctors for you.','brand-h'); ?>
   </h2>
   <div class="mt-20 text-left px-6 font-size-24 leading-relaxed" style="color:#2681F3; font-family: 'Noto Sans', sans-serif!important;">
     STEP 01
   </div>
   <div class="text-left px-6 font-size-24 leading-none" style="line-height:30px; font-size:24px; font-family: 'noto_sanslight'!important;">
-    Let <strong style="font-family: 'Noto Sans', sans-serif!important;">Himedi</strong> know your disease name and questions you want to ask doctors. 
+    <?php _e('Let <strong style="font-family: `Noto Sans`, sans-serif!important;">Himedi </strong> know your disease name and questions you want to ask doctors.','brand-h'); ?>
   </div>
   <p class="px-6 lg:pt-24 pt-0 font-roboto leading-none mt-3" style="font-size:16px; line-height:1.2;  font-family: 'Noto Sans', sans-serif!important;">
-    Based on the information you share and consultations, Himedi will recommend best-suitable remedies and doctors for you.
+    <?php _e('Based on the information you share and consultations, Himedi will recommend best-suitable remedies and doctors for you.','brand-h'); ?>
   </p>
   <!-- <div style="height:500px"> #safari issue
     <div class="relative content-check-hospital">
@@ -57,7 +57,7 @@ body{
   <!-- Button (start) -->
   <div class="flex justify-center">
     <button class="bg-brand px-5 py-5 text-white w-7/12 lg:w-4/12 mx-auto mt-10 mb-20" style="border-radius:10px; font-size:16px; padding:10px 40px;">
-      <a href="/affiliate" style="color:white!important;">Check hospitals</a>
+      <a href style="color:white!important;"><?php _e('Check hospitals','brand-h'); ?></a>
     </button>
   </div>
 	<!-- Button (end) -->
@@ -65,7 +65,7 @@ body{
     STEP 02
   </div>
   <div class="text-left px-6 font-size-24 leading-none" style="line-height:30px; font-size:24px; font-family: 'noto_sanslight'!important;">
-  If you would like to receive the <strong style="font-family: 'Noto Sans', sans-serif!important;">second opinion</strong> or deputy consultation from the recommended doctors, please share more detailed <strong style="font-family: 'Noto Sans', sans-serif!important;">medical records</strong>.
+  <?php _e('If you would like to receive the <strong style="font-family: Noto Sans, sans-serif!important;">second opinion</strong> or deputy consultation from the recommended doctors, please share more detailed <strong style="font-family: Noto Sans, sans-serif!important;">medical records','brand-h'); ?></strong>.
   </div>
   <!-- Main slider (start) -->
   <div class="swiper-container content-step2" style="">
@@ -98,7 +98,7 @@ body{
     STEP 03
   </div>
   <div class=" text-left px-6 font-size-24 leading-none" style="line-height:1.2">
-    Based on the shared materials, Himedi proposes a plan for treatment available in Korea.
+    <?php _e('Based on the shared materials, Himedi proposes a plan for treatment available in Korea.','brand-h'); ?>
   </div>
   <div class="mt-12">
     <img src="<?php bloginfo('template_directory') ?>/img/section3-3-1.jpg" width="632px" height="348px" alt="">
@@ -107,46 +107,46 @@ body{
   <div class="flex justify-center mt-24">
 	<!-- <button class="bg-brand px-5 py-5 text-white mx-auto mt-10" style="border-radius:10px; font-size:18px"> -->
 	<button class="bg-brand px-5 py-5 text-white w-9/12 lg:w-6/12 mx-auto mt-10 mb-20" style="border-radius:10px; font-size:16px;">
-      <a href="/success-cases" style="color:white">Check medical diagnoses</a>
+      <a href="/success-cases" style="color:white"><?php _e('Check medical diagnoses','brand-h'); ?></a>
     </button>
   </div>
 	  <!-- Button (end) -->
   </div>
   <div class="mt-20">
     <h2 class="px-8 text-left font-size-24 leading-relaxed " style="font-size:24px; color:rgba(0,0,0,.8); line-height: 1.5em;">
-      Feel free to ask us anything. <br><strong>We will reply</strong><br> kindly and promptly.
+      <?php _e('Feel free to ask us anything. <br><strong>We will reply</strong><br> kindly and promptly.','brand-h'); ?>
     </h2>
     <p class="pt-4 px-8 text-gray-700 text-left font-size-24 leading-none" style="font-size:16px; line-height:26px; font-weight:400;">
-      Do you have difficulty in inquiring? <br>We give sincere answers to any question for patients’ recovery.
+      <?php _e('Do you have difficulty in inquiring? <br> We give sincere answers to any question for patients’ recovery.','brand-h'); ?>
     </p>
     <div class=" mt-20 text-left px-6 font-size-24 leading-relaxed" style="color:#2681F3">
-      Start consultation &#62;
+      <?php _e('Start consultation','brand-h'); ?> &#62;
     </div>
     <div>
       <!-- <img class="mx-auto mb-24 mt-10" src="<?php bloginfo('template_directory') ?>/img/section3-2-phone.png" width="346px" height="346px" alt=""> -->
-      <img class="mx-auto mb-24 mt-10" src="<?php bloginfo('template_directory') ?>/img/himedi-whatsapp1.png" width="346px" height="346px" alt="himedi-whatsapp">
+      <img class="mx-auto mb-24 mt-10" src="<?php bloginfo('template_directory') ?>/img/himedi-whatsapp.png" width="346px" height="346px" alt="himedi-whatsapp">
     </div>
   </div>
   <div class="px-5"> 
     <h2 class=" mt-20 text-left px-0 font-size-24 leading-none" style="color:#2681F3; line-height:1.2; font-size:22px;">
-      * Period required: about 10 days
+      * <?php _e('Period required: about 10 days','brand-h'); ?>
     </h2>
     <p class="pt-0 px-5 text-gray-700 text-left font-size-24 leading-none" style="font-size: 16px; line-height: 26px; font-weight: 400;">
-      Examination results are made available within 10 days from the time when records are received and delivered.
+      <?php _e('Examination results are made available within 10 days from the time when records are received and delivered.','brand-h'); ?>
     </p>
     
     <h2 class=" mt-20 text-left px-0 font-size-24 leading-none" style="color:#2681F3; line-height:1.2; font-size:22px;">
-      * Estimated cost: Please inquire.
+      * <?php _e('Estimated cost: Please inquire.','brand-h'); ?>
     </h2>
     <p class="pt-0 px-5 text-gray-700 text-left font-size-24 leading-none" style="font-size: 16px; line-height: 26px; font-weight: 400;">
-      Examination results are made available within 10 days from the time when records are received and delivered.
+      <?php _e('Examination results are made available within 10 days from the time when records are received and delivered.','brand-h'); ?>
     </p>
   
     <!-- Button (start) -->
     <div class="flex justify-center my-24 mb-32">
       <a href="/inquiry">
         <button class="border button-12 px-20 py-5 mx-auto mt-10">
-        Inquiry
+        <?php _e('Inquiry','brand-h'); ?>
         </button>
         </a>
     </div>

@@ -18,7 +18,7 @@
         <div class="flex justify-center flex-wrap w-8/12 lg:w-5/12 lg:text-3xl">
         <button id="choleithiasis_button"
                 class="relative flex items-center justify-center content-center bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-3 lg:py-3 border border-blue-500 hover:border-transparent rounded-full m-2 min-w-full">
-                Cholelithiasis
+                Choleithiasis
                 <svg class="w-10 lg:w-10 absolute right-0 mr-5 lg:mr-5" viewBox="0 0 640 512" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -67,10 +67,10 @@
     </div> -->
 
     <div id="successCase_popup_bg" class="fixed w-screen h-screen top-0 right-0 z-40 hidden" style="background-color: rgba(0, 0, 0, 0.6);"></div>
-    <div id="successCase_popup" class=" w-full sm:w-1/2 md:w-2/3 fixed top-0 z-50 p-4 pt-16 overflow-hidden  hidden" style="max-width: 635px;height: 70vh;top:50%; left: 50%; transform: translate(-50%, -50%);">
+    <div id="successCase_popup" class=" w-full sm:w-1/2 md:w-2/3 fixed top-0 z-50 p-4 pt-16 bg-white overflow-hidden  hidden" style="max-width: 635px;height: 70vh;top:50%; left: 50%; transform: translate(-50%, -50%);">
             <!-- PopUp Content goes here. -->
             <img class="absolute top-0 left-0 w-full h-full z-40" src="<?php bloginfo('template_directory') ?>/img/static/chart2.png" alt="" style="pointer-events:none">
-           <div class="w-full h-full overflow-auto hide_scrollBar" style="height:100%"> 
+           <div class="w-full h-full overflow-auto hide_scrollBar" style="height:95%"> 
                <img src="<?php bloginfo('template_directory') ?>/img/case/case-01.jpg" alt="">
                <img src="<?php bloginfo('template_directory') ?>/img/case/case-02.jpg" alt="">
                <img src="<?php bloginfo('template_directory') ?>/img/case/case-03.jpg" alt="">

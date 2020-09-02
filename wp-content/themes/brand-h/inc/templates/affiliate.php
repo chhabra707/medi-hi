@@ -32,7 +32,7 @@
   </div>
   <div class="w-full mb-32 ">
     <h2 class="font-bold text-center px-6 font-size-24 leading-relaxed " style="font-size:22px">
-      Check out Korea’s <br class="lg:hidden">best medical staff.
+      <?php _e('Check out Korea’s <br class="lg:hidden">best medical staff.','brand-h');?>
     </h2>
   </div>
   <!-- logo --> 
